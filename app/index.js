@@ -20,8 +20,8 @@ app.get("/", (req, res) => {
 
 // add data CREATE
 app.post("/", (req, res) => {
-    console.log("==> ", req.body);
-    console.log("==> ", req.method);
+    // console.log("==> ", req.body);
+    // console.log("==> ", req.method);
     console.log("==> ", req.headers);
     console.log("==> ", req.path);
 
