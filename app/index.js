@@ -34,12 +34,7 @@ app.post("/", (req, res) => {
   });
 });
 
-// Update
-app.put("/", (req, res) => {
-  return res.json({
-    message: "PUT route",
-  });
-});
+
 
 // DELETE
 app.delete("/", (req, res) => {
