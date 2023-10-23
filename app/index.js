@@ -10,13 +10,13 @@ app.use(express.json());
 const favs = [];
 
 // reading READ
-app.get("/", (req, res) => {
-  return res.json({
-    data: {
-      favs,
-    },
-  });
-});
+// app.get("/", (req, res) => {
+//   return res.json({
+//     data: {
+//       favs,
+//     },
+//   });
+// });
 
 // add data CREATE
 app.post("/", (req, res) => {
