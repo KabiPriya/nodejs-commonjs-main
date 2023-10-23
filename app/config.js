@@ -1,5 +1,5 @@
-// const config = {
-//   port: 1234,
-// };
+const config = {
+  port: 1234,
+};
 
-// module.exports = config;
+module.exports = config;
